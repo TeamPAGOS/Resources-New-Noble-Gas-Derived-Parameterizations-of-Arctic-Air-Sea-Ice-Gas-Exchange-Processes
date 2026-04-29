@@ -7,4 +7,4 @@ In `montecarlo.py`, if you really want to run it, then you must set the output d
 
 ## REQUIREMENTS
 1. Development version of PAGOS, install with pip using pip install git+https://github.com/TeamPAGOS/PAGOS.git@GUI-dev 
-2. scipy version 1.16.3 (1.17 will not work!)
+2. scipy version 1.16.3 (1.17 will not work!)   
