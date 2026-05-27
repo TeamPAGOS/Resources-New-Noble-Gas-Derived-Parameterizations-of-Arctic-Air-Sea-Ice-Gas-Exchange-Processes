@@ -4,3 +4,7 @@ Resources for data and plot generation for paper New Noble Gas-Derived Parameter
 The file `Paper copy.ipynb` and `transient_tracer.py` should work more or less out-of-the-box. One step is necessary, which is extracting `data/SO21_ctd_noheader.zip` into the `data/` directory, so that the tab file is accessible. It is zipped here due to Github's upload size constraints.
 
 In `montecarlo.py`, if you really want to run it, then you must set the output directories for the monte carlo fits, as indicated by the placeholder pathnames in the file.
+
+## REQUIREMENTS
+1. Development version of PAGOS, install with pip using pip install git+https://github.com/TeamPAGOS/PAGOS.git@GUI-dev 
+2. scipy version 1.16.3 (1.17 will not work!)   
